@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="33139276-a22c-4fa6-af3c-8de526fd0291" name="Default Changelist" comment="" />
+    <list default="true" id="33139276-a22c-4fa6-af3c-8de526fd0291" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +25,7 @@
         <entry key="$PROJECT_DIR$/YourStoryMobile" value="frontend" />
       </map>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/YourStoryMobile" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="ProjectId" id="1d5IWl8UAFnuectEGu37rBJIV9v" />
@@ -28,9 +39,15 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="Push.Settings">
+    <force-push-targets>
+      <force-push-target remote-path="origin" branch="development" />
+    </force-push-targets>
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -53,6 +70,7 @@
       <updated>1591708560815</updated>
       <workItem from="1591708562192" duration="450000" />
       <workItem from="1591709094712" duration="1216000" />
+      <workItem from="1591710649627" duration="734000" />
     </task>
     <task id="LOCAL-00001" summary="LoginScreen.js is added.">
       <created>1591709867479</created>
@@ -66,6 +84,17 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="LoginScreen.js is added." />
@@ -84,17 +113,17 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="776" y="297" width="424" height="484" key="FileChooserDialogImpl/1920.0.1920.1080/67.27.1853.1053@67.27.1853.1053" timestamp="1591710312282" />
-    <state x="588" y="256" width="800" height="565" key="Vcs.Push.Dialog.v2" timestamp="1591710025582">
+    <state x="588" y="256" width="800" height="565" key="Vcs.Push.Dialog.v2" timestamp="1591711382722">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="588" y="256" width="800" height="565" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/67.27.1853.1053@67.27.1853.1053" timestamp="1591710025582" />
+    <state x="588" y="256" width="800" height="565" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/67.27.1853.1053@67.27.1853.1053" timestamp="1591711382722" />
     <state x="702" y="384" width="572" height="309" key="git4idea.rebase.GitRebaseDialog" timestamp="1591710273249">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="702" y="384" width="572" height="309" key="git4idea.rebase.GitRebaseDialog/1920.0.1920.1080/67.27.1853.1053@67.27.1853.1053" timestamp="1591710273249" />
-    <state x="695" y="411" width="586" height="256" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1591709909544">
+    <state x="695" y="411" width="586" height="256" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1591710745515">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="695" y="411" width="586" height="256" key="git4idea.remote.GitConfigureRemotesDialog/1920.0.1920.1080/67.27.1853.1053@67.27.1853.1053" timestamp="1591709909544" />
+    <state x="695" y="411" width="586" height="256" key="git4idea.remote.GitConfigureRemotesDialog/1920.0.1920.1080/67.27.1853.1053@67.27.1853.1053" timestamp="1591710745515" />
   </component>
 </project>

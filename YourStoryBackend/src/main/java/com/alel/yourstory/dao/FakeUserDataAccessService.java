@@ -9,7 +9,7 @@ import java.util.Optional;
 import java.util.UUID;
 
 @Repository("fake")
-public class FakeUserDataAccessService implements UserDao{
+public class FakeUserDataAccessService implements UserDao {
 
     private static final List<User> users = new ArrayList<>();
 
@@ -30,13 +30,27 @@ public class FakeUserDataAccessService implements UserDao{
     }
 
     @Override
-    public Optional<User> updateUser(UUID id, String username) {
-        return Optional.empty();
+    public int updateUser(UUID id, User newUser) {
+        return getUser(id)
+                .map(user -> {
+                    int indexOfUser = users.indexOf(user);
+
+                    if (indexOfUser >= 0) {
+                        users.set(indexOfUser, new User(id, newUser.getUsername()));
+                        return 1;
+                    }
+                    return 0;
+                })
+                .orElse(0);
     }
 
     @Override
     public int deleteUser(UUID id) {
-        return 0;
+        Optional<User> user = getUser(id);
+        if (user.isEmpty()) return -1;
+
+        users.remove(user.get());
+        return 1;
     }
 
 

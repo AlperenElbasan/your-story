@@ -3,11 +3,12 @@ package com.alel.yourstory.model;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 import java.util.UUID;
+import javax.validation.constraints.NotBlank;
 
 public class User {
 
     private final UUID id;
-
+    @NotBlank
     private final String username;
 
     public User(@JsonProperty("id") UUID id,

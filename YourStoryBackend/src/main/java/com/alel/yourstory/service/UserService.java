@@ -16,19 +16,15 @@ public class UserService {
     private final UserDao userDao;
 
     @Autowired
-    public UserService(@Qualifier("fake") UserDao userDao) {
-        this.userDao = userDao;
-    }
+    public UserService(@Qualifier("fake") UserDao userDao) { this.userDao = userDao; }
 
-    public int insertUser(User user) {
-        return userDao.insertUser(user);
-    }
+    public int insertUser(User user) { return userDao.insertUser(user); }
 
-    public List<User> getAllUsers() {
-        return userDao.listUsers();
-    }
+    public List<User> getAllUsers() { return userDao.listUsers(); }
 
-    public Optional<User> getUser(UUID id) {
-        return userDao.getUser(id);
-    }
+    public Optional<User> getUser(UUID id) { return userDao.getUser(id); }
+
+    public int updateUser(UUID id, User newUser) { return userDao.updateUser(id, newUser); }
+
+    public int deleteUser(UUID id) { return userDao.deleteUser(id); }
 }

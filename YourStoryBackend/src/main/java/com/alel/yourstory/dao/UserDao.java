@@ -19,7 +19,7 @@ public interface UserDao {
 
     Optional<User> getUser(UUID id);
 
-    Optional<User> updateUser(UUID id, String username);
+    int updateUser(UUID id, User username);
 
     int deleteUser(UUID id);
 }

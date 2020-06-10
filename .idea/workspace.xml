@@ -10,9 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33139276-a22c-4fa6-af3c-8de526fd0291" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="33139276-a22c-4fa6-af3c-8de526fd0291" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,7 +38,7 @@
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/YourStoryBackend" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
@@ -71,6 +69,7 @@
       <workItem from="1591708562192" duration="450000" />
       <workItem from="1591709094712" duration="1216000" />
       <workItem from="1591710649627" duration="734000" />
+      <workItem from="1591782380811" duration="157000" />
     </task>
     <task id="LOCAL-00001" summary="LoginScreen.js is added.">
       <created>1591709867479</created>
@@ -95,6 +94,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="LoginScreen.js is added." />
@@ -109,10 +109,10 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="508" y="21" width="960" height="1036" key="CommitChangelistDialog2/1920.0.1920.1080/67.27.1853.1053@67.27.1853.1053" timestamp="1591709867437" />
-    <state x="776" y="297" width="424" height="484" key="FileChooserDialogImpl" timestamp="1591710312282">
+    <state x="776" y="297" width="424" height="484" key="FileChooserDialogImpl" timestamp="1591782537703">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="776" y="297" width="424" height="484" key="FileChooserDialogImpl/1920.0.1920.1080/67.27.1853.1053@67.27.1853.1053" timestamp="1591710312282" />
+    <state x="776" y="297" width="424" height="484" key="FileChooserDialogImpl/1920.0.1920.1080/67.27.1853.1053@67.27.1853.1053" timestamp="1591782537703" />
     <state x="588" y="256" width="800" height="565" key="Vcs.Push.Dialog.v2" timestamp="1591711382722">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
